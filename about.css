@@ -1,0 +1,64 @@
+
+.about-hero{
+    max-width: 1128px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 24px;
+    padding-left: 24px;
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f1f6fb;
+}
+
+.w-layout-grids {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+    
+ 
+    
+
+
+.mini-about, .about-hero-pic{
+ margin: 1.4rem;
+}
+
+.about-hero-pic{
+    margin: 0rem;
+}
+
+.about01{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Poppins, sans-serif;
+    color: #666f77;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.about02 h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(6, 24, 41);
+    font-size: 27px;
+    line-height: 1.25em;
+    font-weight: 700;
+}
+
+.about03 p{
+    margin-bottom: 10px;
+    color: #666f77;
+    line-height: 1.6em;
+}
+
+
+
+

@@ -1,0 +1,136 @@
+.footer-item{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content:center;
+}
+.footer-item ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.footer-item ul li{
+    list-style: none;
+}
+
+.footer-item ul li a{
+    text-decoration: none;
+    color: #666f77;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+/* @media screen and (max-width: 768px) {
+    .footer-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+    }
+    .footer-item ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-between;
+    }
+    .footer-item ul li{
+        list-style: none;
+    }
+    .footer-item ul li a{
+        text-decoration: none;
+        color: #666f77;
+        font-size: 1.1rem;
+        font-weight: 500;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+    }
+} */
+    
+
+
+
+.footerT{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    padding: 1rem;
+    width: 100%;
+}
+.footer-wrapperT{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content:space-between;
+    width: 100%;
+}
+.footer-itemT{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+.footer-wrapperT ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+.logo{
+    margin: 1rem;
+    width: 25%;
+}
+.footer-itemT ul li{
+    list-style: none;
+    margin: 1rem;
+}
+.footer-itemT ul li a{
+    text-decoration: none;
+    color: #666f77;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 768px) {
+    .footerT{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        padding: 1rem;
+        width: 100%;
+    }
+    .footer-wrapperT{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-between;
+        width: 100%;
+    }
+    .footer-wrapperT ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+    }
+    .footer-itemT{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+    }
+    .logo{
+        margin: 0rem;
+        width: auto;
+    }
+    .footer-itemT ul li{
+
+}
+}
